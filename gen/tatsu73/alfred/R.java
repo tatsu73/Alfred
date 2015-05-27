@@ -1822,11 +1822,6 @@ containing a value of this type.
         by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
     
 
-            Theme customizations available in newer API levels can go in
-            res/values-vXX/styles.xml, while customizations related to
-            backward-compatibility can go here.
-        
-
         Base application theme for API 11+. This theme completely replaces
         AppBaseTheme from res/values/styles.xml on API 11+ devices.
     
@@ -1840,7 +1835,6 @@ containing a value of this type.
          */
         public static final int AppBaseTheme=0x7f0b00eb;
         /**  Application theme. 
- All customizations that are NOT specific to a particular API-level can go here. 
          */
         public static final int AppTheme=0x7f0b00ec;
         public static final int Base_TextAppearance_AppCompat=0x7f0b0098;
@@ -2158,6 +2152,7 @@ containing a value of this type.
          */
         public static final int Widget_AppCompat_Toolbar=0x7f0b0034;
         public static final int Widget_AppCompat_Toolbar_Button_Navigation=0x7f0b0035;
+        public static final int actionBar=0x7f0b00ed;
     }
     public static final class styleable {
         /**  ============================================ 

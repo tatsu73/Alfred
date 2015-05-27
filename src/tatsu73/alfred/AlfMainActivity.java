@@ -1,16 +1,19 @@
 package tatsu73.alfred;
 
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.Window;
 
 public class AlfMainActivity extends ActionBarActivity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_alf_main);
+		android.app.ActionBar actionBar = getActionBar();
+		actionBar.hide();
 	}
 
 	@Override
